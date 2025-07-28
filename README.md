@@ -1,4 +1,4 @@
-<h1> FUNAN AUTO REPORT BOT</h1>
+<h1 align="center"> FUNAN AUTO REPORT BOT</h1>
 
 ```
 sudo apt install python3
