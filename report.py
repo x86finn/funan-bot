@@ -9,10 +9,7 @@ init(autoreset=True)
 # Clear terminal
 os.system("cls" if os.name == "nt" else "clear")
 
-print(Fore.YELLOW + "==============================================")
-print(Fore.RED + "     FACEBOOK FAKE NEWS REPORT TOOL (MT)      ")
-print(Fore.YELLOW + "==============================================\n")
-print(Fore.YELLOW + "By: 3xyu-shadow")
+print(Fore.RED + "     FUNAN PAGE REPORT TOOL (MT)      ")
 
 # User input
 fb_url = input(Fore.YELLOW + "[+] Enter Facebook post/profile URL to report: ").strip()
@@ -67,4 +64,4 @@ def batch_runner():
 # Start
 print(Fore.MAGENTA + f"\n[+] Sending {total_reports} reports using {threads} threads...\n")
 batch_runner()
-print(Fore.BLUE + "\n[✔] All reports complete. Thank you for reporting fake news.")
+print("Successfully reported")
